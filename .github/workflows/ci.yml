@@ -99,7 +99,6 @@ jobs:
 
     - name: Build application
       run: npm run build
-
     - name: Verify build
       run: ls -la dist
       - name: Verify build
